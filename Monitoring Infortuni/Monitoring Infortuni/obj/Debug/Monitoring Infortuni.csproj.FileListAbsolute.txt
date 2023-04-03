@@ -1,0 +1,86 @@
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\Monitoring Infortuni.dll.config
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\Monitoring Infortuni.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\Monitoring Infortuni.pdb
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\csc.exe
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\csc.exe.config
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\csc.rsp
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\csi.exe
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\csi.exe.config
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\csi.rsp
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.AppContext.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Console.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.IO.Compression.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Net.Http.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.ValueTuple.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\vbc.exe
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\vbc.exe.config
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\vbc.rsp
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\VBCSCompiler.exe
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\Antlr3.Runtime.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\Newtonsoft.Json.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\System.Web.Helpers.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\System.Web.Mvc.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\System.Web.Optimization.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\System.Web.Razor.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\System.Web.WebPages.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\System.Web.WebPages.Razor.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\WebGrease.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\System.Web.Helpers.xml
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\System.Web.Mvc.xml
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\System.Web.Optimization.xml
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\System.Web.Razor.xml
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\System.Web.WebPages.xml
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\System.Web.WebPages.Razor.xml
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\Newtonsoft.Json.xml
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\Antlr3.Runtime.pdb
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\it\System.Web.Helpers.resources.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\it\System.Web.Mvc.resources.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\it\System.Web.Optimization.resources.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\it\System.Web.Razor.resources.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\it\System.Web.WebPages.resources.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\it\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\bin\it\System.Web.WebPages.Razor.resources.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\obj\Debug\Monitoring Infortuni.csproj.AssemblyReference.cache
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\obj\Debug\Monitoring Infortuni.csproj.CoreCompileInputs.cache
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\obj\Debug\Monitoring Infortuni.csproj.CopyComplete
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\obj\Debug\Monitoring Infortuni.dll
+C:\Users\Utente\Documents\GitHub\ProgettoSteelco\Monitoring Infortuni\Monitoring Infortuni\obj\Debug\Monitoring Infortuni.pdb
