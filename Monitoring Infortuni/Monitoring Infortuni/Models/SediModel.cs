@@ -12,8 +12,7 @@ namespace Monitoring_Infortuni.Models
         public int Id { get; set; }
         [DisplayName("Sede")]
         public string Sede { get; set; }
-        [DisplayName("Data Ultimo Infortunio")]
-        [DataType(DataType.Date)]
+        [DisplayName("Giorni dall'ultimo infortunio")]
         public DateTime Data { get; set; }
         [DisplayName("Stato Di Attenzione")]
         public bool Attenzione { get; set; }

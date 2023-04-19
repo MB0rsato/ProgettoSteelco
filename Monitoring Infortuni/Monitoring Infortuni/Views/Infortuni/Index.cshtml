@@ -19,8 +19,8 @@
         <td>
             @Html.DisplayFor(modelItem => item.Sede)
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Data)
+        <td>  
+            @Html.DisplayFor(modelItem => ((DateTime.Now - item.Data).Days));
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Attenzione)
