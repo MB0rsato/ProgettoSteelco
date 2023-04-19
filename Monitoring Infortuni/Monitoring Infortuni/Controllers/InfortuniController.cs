@@ -19,9 +19,5 @@ namespace Monitoring_Infortuni.Controllers
             return View(listaDiSedi);
         }
 
-        public ActionResult Accedi()
-        {
-            return View();
-        }
     }
 }
