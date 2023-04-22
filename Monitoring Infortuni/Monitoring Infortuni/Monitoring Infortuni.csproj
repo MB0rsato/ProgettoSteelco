@@ -127,6 +127,8 @@
     </Compile>
     <Compile Include="Models\SediModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ISediDataService.cs" />
+    <Compile Include="Services\SediDAO.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />

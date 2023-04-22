@@ -3,15 +3,9 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Sede)
-        </th>
-        <th>
             @Html.DisplayNameFor(model => model.Data)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Attenzione)
-        </th>
-        <th></th>
+        
     </tr>
 
 @foreach (var item in Model) {
@@ -19,12 +13,23 @@
         <td>
             @Html.DisplayFor(modelItem => item.Sede)
         </td>
-        <td>  
+        <td>
             @Html.DisplayFor(modelItem => ((DateTime.Now - item.Data).Days));
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Attenzione)
-        </td>
+        @if ((DateTime.Now - item.Data).Days <= 10)
+        {
+            <td>
+                Attenzione!
+            </td>
+
+        }else
+        {
+            <td>
+                Tutto OK!
+            </td>
+        }
+
+
     </tr>
 }
 

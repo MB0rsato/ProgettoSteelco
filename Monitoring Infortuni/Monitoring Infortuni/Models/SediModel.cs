@@ -14,8 +14,7 @@ namespace Monitoring_Infortuni.Models
         public string Sede { get; set; }
         [DisplayName("Giorni dall'ultimo infortunio")]
         public DateTime Data { get; set; }
-        [DisplayName("Stato Di Attenzione")]
-        public bool Attenzione { get; set; }
+
 
     }
 }
