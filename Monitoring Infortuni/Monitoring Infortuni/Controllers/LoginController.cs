@@ -14,15 +14,18 @@ namespace Monitoring_Infortuni.Controllers
         {
             return View();
         }
+
+        [HttpPost]
         public ActionResult ProcessLogin(AdminModel adminModel)
         {
             if(adminModel.Password == "ciao" && adminModel.UserName == "admin")
             {
-                return View("LoginSuccess");
+                SediDAO sedi = new SediDAO();
+                return View("LoginSuccess",sedi.TutteLeSedi());
             }
             else
             {
-                return View("LoginFailed");
+                return View("LoginFailed", adminModel);
             }
             
         }
