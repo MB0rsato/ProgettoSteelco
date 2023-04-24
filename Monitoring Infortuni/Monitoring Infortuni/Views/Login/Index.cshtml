@@ -1,6 +1,6 @@
 ﻿@model Monitoring_Infortuni.Models.AdminModel
 
-@using (Html.BeginForm()) 
+@using (Html.BeginForm("ProcessLogin", "LoginController"))
 {
     @Html.AntiForgeryToken()
     

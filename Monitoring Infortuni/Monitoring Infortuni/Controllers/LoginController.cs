@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Monitoring_Infortuni.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,18 @@ namespace Monitoring_Infortuni.Controllers
         public ActionResult Index()
         {
             return View();
+        }
+        public ActionResult ProcessLogin(AdminModel adminModel)
+        {
+            if(adminModel.Password == "ciao" && adminModel.UserName == "admin")
+            {
+                return View("LoginSuccess");
+            }
+            else
+            {
+                return View("LoginFailed");
+            }
+            
         }
     }
 }
