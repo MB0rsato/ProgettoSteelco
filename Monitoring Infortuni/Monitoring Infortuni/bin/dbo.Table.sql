@@ -1,6 +1,0 @@
-﻿CREATE TABLE [dbo].[Sedi]
-(
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
-    [Sede] NCHAR(50) NULL, 
-    [Data] DATETIME NULL
-)
