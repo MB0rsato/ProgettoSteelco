@@ -13,6 +13,7 @@ namespace Monitoring_Infortuni.Models
         [DisplayName("Sede")]
         public string Sede { get; set; }
         [DisplayName("Giorni dall'ultimo infortunio")]
+        [DataType(DataType.DateTime)]
         public DateTime Data { get; set; }
 
 

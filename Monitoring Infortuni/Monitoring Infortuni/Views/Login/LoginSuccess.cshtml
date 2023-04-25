@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<Monitoring_Infortuni.Models.SediModel>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Crea Una Nuova Sede", "Create")
 </p>
 <table class="table">
     <tr>
@@ -23,8 +23,8 @@
             @Html.DisplayFor(modelItem => item.Data)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id })
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            @Html.ActionLink("Modifica", "Edit", new { id=item.Id })
+            @Html.ActionLink("Elimina", "Delete", new { id=item.Id })
         </td>
     </tr>
 }

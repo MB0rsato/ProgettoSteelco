@@ -10,9 +10,10 @@ namespace Monitoring_Infortuni.Services
     internal interface ISediDataService
     {
         List<SediModel> TutteLeSedi();
-        int Inserisci(SediModel sede);
+        int Crea(SediModel sede);
         int Modifica(SediModel sede);
         int Elimina(SediModel sede);
+        SediModel TrovaConID(int id);
 
     }
 }

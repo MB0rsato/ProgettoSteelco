@@ -1,4 +1,5 @@
 ﻿using Monitoring_Infortuni.Models;
+using Monitoring_Infortuni.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,9 @@ namespace Monitoring_Infortuni.Controllers
         [HttpPost]
         public ActionResult ProcessLogin(AdminModel adminModel)
         {
-            if(adminModel.Password == "ciao" && adminModel.UserName == "admin")
+            SecurityService securityService = new SecurityService();
+
+            if(securityService.IsValid(adminModel))
             {
                 SediDAO sedi = new SediDAO();
                 return View("LoginSuccess",sedi.TutteLeSedi());
@@ -27,7 +30,20 @@ namespace Monitoring_Infortuni.Controllers
             {
                 return View("LoginFailed", adminModel);
             }
-            
+        }
+        public ActionResult Edit(int id)
+        {
+            SediDAO sedi = new SediDAO();
+            SediModel sede = sedi.TrovaConID(id);
+            return View("EditForm", sede);
+        }
+
+        [HttpPost]
+        public ActionResult ProcessEdit(SediModel sede)
+        {
+            SediDAO sedi = new SediDAO();
+            sedi.Modifica(sede);
+            return View("LoginSuccess", sedi.TutteLeSedi());
         }
     }
 }

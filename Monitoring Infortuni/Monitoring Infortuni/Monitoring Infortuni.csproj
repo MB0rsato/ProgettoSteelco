@@ -128,7 +128,9 @@
     <Compile Include="Models\AdminModel.cs" />
     <Compile Include="Models\SediModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AdminsDAO.cs" />
     <Compile Include="Services\ISediDataService.cs" />
+    <Compile Include="Services\SecurityService.cs" />
     <Compile Include="Services\SediDAO.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -168,6 +170,7 @@
     <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\Login\LoginSuccess.cshtml" />
     <Content Include="Views\Login\LoginFailed.cshtml" />
+    <Content Include="Views\Login\EditForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
