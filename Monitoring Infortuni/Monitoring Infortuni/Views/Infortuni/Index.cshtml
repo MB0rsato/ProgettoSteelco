@@ -1,36 +1,40 @@
 ﻿@model IEnumerable<Monitoring_Infortuni.Models.SediModel>
 
+<meta http-equiv="refresh" content="86400"></meta>
+
 <table class="table">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.Data)
         </th>
-        
-    </tr>
-
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Sede)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => ((DateTime.Now - DateTime.Parse(item.Data)).Days));
-        </td>
-        @if ((DateTime.Now - DateTime.Parse(item.Data)).Days <= 10)
-        {
-            <td>
-                Attenzione!
-            </td>
-
-        }else
-        {
-            <td>
-                Tutto OK!
-            </td>
-        }
-
 
     </tr>
-}
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sede)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => ((DateTime.Now - DateTime.Parse(item.Data)).Days));
+            </td>
+            @if ((DateTime.Now - DateTime.Parse(item.Data)).Days <= 10)
+            {
+                <td>
+                    Attenzione!
+                </td>
+
+            }
+            else
+            {
+                <td>
+                    Tutto OK!
+                </td>
+            }
+
+
+        </tr>
+    }
 
 </table>
