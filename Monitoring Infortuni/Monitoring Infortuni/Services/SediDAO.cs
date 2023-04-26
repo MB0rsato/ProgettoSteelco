@@ -16,23 +16,58 @@ namespace Monitoring_Infortuni
 
         public int Crea(SediModel sede)
         {
-            throw new NotImplementedException();
+            int nuovoId = -1;
+            string sqlStatement = "INSERT INTO dbo.Sedi (Sede,Data) VALUES (@sede,@data)";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(sqlStatement, connection);
+                command.Parameters.AddWithValue("@sede", sede.Sede);
+                command.Parameters.AddWithValue("@data", sede.Data);
+                try
+                {
+                    connection.Open();
+                    nuovoId = Convert.ToInt32(command.ExecuteScalar());
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            }
+            return nuovoId;
         }
 
         public int Elimina(SediModel sede)
         {
-            throw new NotImplementedException();
+            int nuovoId = -1;
+            string sqlStatement = "DELETE FROM dbo.Sedi WHERE Id = @id";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(sqlStatement, connection);
+                command.Parameters.AddWithValue("id", sede.Id);
+                try
+                {
+                    connection.Open();
+                    nuovoId = Convert.ToInt32(command.ExecuteScalar());
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            }
+            return nuovoId;
+
         }
 
         public int Modifica(SediModel sede)
         {
             int nuovoId = -1;
-            string sqlStatement = "UPDATE dbo.Sedi SET Sede = @sede, Data = @data";
+            string sqlStatement = "UPDATE dbo.Sedi SET Sede = @sede, Data = @data WHERE Id = @id";
             using(SqlConnection connection = new SqlConnection(connectionString))
             {
                 SqlCommand command = new SqlCommand(sqlStatement, connection);
                 command.Parameters.AddWithValue("@sede", sede.Sede);
                 command.Parameters.AddWithValue("@data", sede.Data);
+                command.Parameters.AddWithValue("id", sede.Id);
                 try
                 {
                     connection.Open();
@@ -59,7 +94,7 @@ namespace Monitoring_Infortuni
                     SqlDataReader reader = command.ExecuteReader();
                     while (reader.Read())
                     {
-                        sede = new SediModel { Id = (int)reader[0], Sede = (string)reader[1], Data = (DateTime)reader[2] };
+                        sede = new SediModel { Id = (int)reader[0], Sede = (string)reader[1], Data = (string)reader[2] };
                     }
                 }catch(Exception e)
                 {
@@ -82,7 +117,7 @@ namespace Monitoring_Infortuni
                     SqlDataReader reader = command.ExecuteReader();
                     while (reader.Read())
                     {
-                        sedi.Add(new SediModel { Id = (int)reader[0], Sede = (string)reader[1], Data = (DateTime)reader[2] });
+                        sedi.Add(new SediModel { Id = (int)reader[0], Sede = (string)reader[1], Data = (string)reader[2] });
                     }
                 }
                 catch (Exception ex)

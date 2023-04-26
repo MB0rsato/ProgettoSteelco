@@ -31,18 +31,35 @@ namespace Monitoring_Infortuni.Controllers
                 return View("LoginFailed", adminModel);
             }
         }
+        public ActionResult Delete(int id)
+        {
+            SediDAO sedi = new SediDAO();
+            sedi.Elimina(sedi.TrovaConID(id));
+            return View("LoginSuccess", sedi.TutteLeSedi());
+        }
         public ActionResult Edit(int id)
         {
             SediDAO sedi = new SediDAO();
             SediModel sede = sedi.TrovaConID(id);
             return View("EditForm", sede);
         }
-
+        public ActionResult Create()
+        {
+            return View("CreateForm");
+        }
         [HttpPost]
-        public ActionResult ProcessEdit(SediModel sede)
+        public ActionResult ProcessCreate(SediModel sedeModel)
         {
             SediDAO sedi = new SediDAO();
-            sedi.Modifica(sede);
+            sedi.Crea(sedeModel);
+            return View("LoginSuccess", sedi.TutteLeSedi());
+        }
+
+        [HttpPost]
+        public ActionResult ProcessEdit(SediModel sedeModel)
+        {
+            SediDAO sedi = new SediDAO();
+            sedi.Modifica(sedeModel);
             return View("LoginSuccess", sedi.TutteLeSedi());
         }
     }

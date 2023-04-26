@@ -14,9 +14,9 @@
             @Html.DisplayFor(modelItem => item.Sede)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => ((DateTime.Now - item.Data).Days));
+            @Html.DisplayFor(modelItem => ((DateTime.Now - DateTime.Parse(item.Data)).Days));
         </td>
-        @if ((DateTime.Now - item.Data).Days <= 10)
+        @if ((DateTime.Now - DateTime.Parse(item.Data)).Days <= 10)
         {
             <td>
                 Attenzione!
